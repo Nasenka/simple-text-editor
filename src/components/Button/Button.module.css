@@ -1,0 +1,29 @@
+.button {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 12px;
+  color: #fff;
+  width: 150px;
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+.button.gold {
+  background: #c93;
+}
+
+.button.green {
+  background: #008000;
+}
+
+.button.red {
+  background: #ff0000;
+}
+
+.button[disabled] {
+  background: #bdbdbd;
+  cursor: not-allowed;
+}

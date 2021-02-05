@@ -1,0 +1,20 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+.textEdit {
+  margin: 20px 0;
+}
+
+.textEdit[contenteditable="true"] {
+  border: 1px solid #bdbdbd;
+  padding: 0 10px;
+}
+
+.saveButton {
+  margin-right: 15px;
+}
